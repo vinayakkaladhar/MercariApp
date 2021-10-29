@@ -33,7 +33,7 @@ public class UserProfile extends EditProfilePage {
 
     @BeforeMethod
     public void startApp() throws InterruptedException {
-        Activity activity = new Activity("com.android2.calculator3","com.xlythe.calculator.material.Theme.Orange");
+        Activity activity = new Activity("com.android2.Mercari","com.android2.Mercari.HomePage");
         ((AndroidDriver) driver).startActivity(activity);
         loginPage.userLogin("vinayak","password@123");
     }

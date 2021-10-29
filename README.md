@@ -1,6 +1,6 @@
 # Project Title
 
-Automated requirements for Calculator App (Android Version)
+Automated requirements for Mercari App (Android Version)
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ adb installed
 
 ### APK used
 
-Calculator.apk (checked in as part of resources)
+Mercari.apk (should be checked in as part of resources)
 
 ## Running the tests
 

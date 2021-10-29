@@ -27,7 +27,6 @@ public class DriverUtilities {
         cap.setCapability("enablePerformanceLogging", true);
         cap.setCapability("platformVersion","11.0");
         cap.setCapability("deviceName","emulator-5554");
-        //cap.setCapability(MobileCapabilityType.APP, "/Users/cb-vinayak/Downloads/khata-book-udhar-bahi-khata-credit-ledger-account.apk");
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),cap);
         return driver;
 
